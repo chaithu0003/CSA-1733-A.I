@@ -1,0 +1,27 @@
+/* styles.css */
+
+/* Reset default anchor styles */
+a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Default text color */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+/* Style for anchor tag with class "styled-link" */
+.styled-link {
+    display: inline-block; /* Make anchor tag behave like a block element */
+    padding: 10px 20px; /* Add padding for better click/tap area */
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    border-radius: 5px; /* Rounded corners */
+    font-weight: bold; /* Bold text */
+    text-transform: uppercase; /* Uppercase text */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
+}
+
+.styled-link:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    color: #fff; /* White text on hover */
+}
